@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Text;
+
 Console.WriteLine("Hello, World!");
 
 //one dimensional array
@@ -27,3 +29,22 @@ for(int i=0; i<3; i++){
     }
     Console.Write("\n");
 }
+
+string s1 = "Hello";
+String s2 = "Hello";
+
+Console.WriteLine(s1);
+Console.WriteLine(s1.Length);
+Console.WriteLine(string.Concat(s1, s2));
+Console.WriteLine(s1.Equals(s2));
+
+
+//immutable string
+string s3 = "hee";
+string s4 = "lala";
+
+//mutable String
+StringBuilder stringBuilder = new StringBuilder();
+stringBuilder.Append("Hii");
+stringBuilder.Append("Holo");
+
