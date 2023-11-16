@@ -1,0 +1,15 @@
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/bin/Debug/net7.0/dotnet-fullstack-foundation
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/bin/Debug/net7.0/dotnet-fullstack-foundation.deps.json
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/bin/Debug/net7.0/dotnet-fullstack-foundation.runtimeconfig.json
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/bin/Debug/net7.0/dotnet-fullstack-foundation.dll
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/bin/Debug/net7.0/dotnet-fullstack-foundation.pdb
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.csproj.AssemblyReference.cache
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.AssemblyInfoInputs.cache
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.AssemblyInfo.cs
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.csproj.CoreCompileInputs.cache
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.dll
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/refint/dotnet-fullstack-foundation.dll
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.pdb
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/dotnet-fullstack-foundation.genruntimeconfig.cache
+/Users/empaid/Documents/courses/dotnet-fullstack-foundation/obj/Debug/net7.0/ref/dotnet-fullstack-foundation.dll
