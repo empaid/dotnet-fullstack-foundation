@@ -73,4 +73,8 @@ stringIndexerType[3] = "string four";
 for(int i=0; i<4; i++ )
     Console.WriteLine(stringIndexerType[i]);
 
-    
+//enum
+Console.WriteLine(WeekDays.Monday + "-> " + (int)WeekDays.Monday);
+Console.WriteLine(WeekDays.Tuesday + "-> " + (int)WeekDays.Tuesday);
+Console.WriteLine(WeekDays.Friday + "-> " + (int)WeekDays.Friday);
+Console.WriteLine(WeekDays.Sunday + "-> " + (int)WeekDays.Sunday);
