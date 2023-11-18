@@ -139,3 +139,6 @@ static void EventMessage(){
 static void EventFire(){
     Console.WriteLine("Event Fired: Odd Number");
 }
+
+//anonymous method
+AnonymousMethodExample.InvokeMethod();
