@@ -142,3 +142,14 @@ static void EventFire(){
 
 //anonymous method
 AnonymousMethodExample.InvokeMethod();
+
+
+//expression lambda
+var numbers = new int[] {2,3,4,5,1,5,7,8};
+var count = numbers.Count(x => x==5);
+Console.WriteLine(count);
+
+//statement lambda
+List<int> numbers2 = new List<int> {2,3,4,5,1,5,7,8};
+count = numbers.Count(x => {return x==5;});
+Console.WriteLine(count);
