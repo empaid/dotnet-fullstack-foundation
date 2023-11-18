@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Linq.Expressions;
 using System.Text;
 
 Console.WriteLine("Hello, World!");
@@ -153,3 +154,18 @@ Console.WriteLine(count);
 List<int> numbers2 = new List<int> {2,3,4,5,1,5,7,8};
 count = numbers.Count(x => {return x==5;});
 Console.WriteLine(count);
+
+//Expression Tree
+Func<string, string, string> stringJoins = (str1, str2) => String.Concat(str1, str2);
+
+Expression<Func<string, string, string>> stringJoinExpr = (str1, str2) => String.Concat(str1, str2);
+
+var func = stringJoinExpr.Compile();
+var res = func("Hello", "World");
+Console.WriteLine(res);
+
+// OR
+
+res = stringJoinExpr.Compile()("Hello", "Everone");
+Console.WriteLine(res);
+
