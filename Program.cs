@@ -108,3 +108,21 @@ Console.WriteLine(obj.projects[0]);
 foreach(var project in obj.projects){
     Console.WriteLine(project);
 }
+
+
+//delegates
+CalculateDelegate c1 = new CalculateDelegate(DelegateExample.addition);
+CalculateDelegate c2 = new CalculateDelegate(DelegateExample.multiplication);
+c1(100);
+Console.WriteLine(DelegateExample.getNumber());
+c2(200);
+Console.WriteLine(DelegateExample.getNumber());
+
+//multicast Delegate
+CalculateDelegate c = new CalculateDelegate(DelegateExample.addition);
+c(100);
+Console.WriteLine(DelegateExample.getNumber());
+c+=new CalculateDelegate(DelegateExample.multiplication);
+
+c(200);
+Console.WriteLine(DelegateExample.getNumber());
