@@ -48,3 +48,7 @@ StringBuilder stringBuilder = new StringBuilder();
 stringBuilder.Append("Hii");
 stringBuilder.Append("Holo");
 
+//extension method
+int number = 100;
+bool result = number.IsGreaterThan(1000);
+
