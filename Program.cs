@@ -52,3 +52,6 @@ stringBuilder.Append("Holo");
 int number = 100;
 bool result = number.IsGreaterThan(1000);
 
+//partial class
+Employee emp = new Employee();
+emp.DisplayDetails();
