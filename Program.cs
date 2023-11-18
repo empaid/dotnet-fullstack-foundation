@@ -55,3 +55,10 @@ bool result = number.IsGreaterThan(1000);
 //partial class
 Employee emp = new Employee();
 emp.DisplayDetails();
+
+//properties
+User user = new User();
+user.Name = "Hardik";
+Console.WriteLine(user.Name);
+Console.WriteLine(user.CompanyName);
+user.Age = 1;
