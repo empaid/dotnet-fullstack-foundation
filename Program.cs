@@ -126,3 +126,16 @@ c+=new CalculateDelegate(DelegateExample.multiplication);
 
 c(200);
 Console.WriteLine(DelegateExample.getNumber());
+
+
+//events
+EventExample events = new EventExample();
+events.event_OddNumber += new EventExample.delegate_OddNumber(EventMessage);
+events.event_OddNumber += new EventExample.delegate_OddNumber(EventFire);
+events.addition();
+static void EventMessage(){
+    Console.WriteLine("Event Executed: Odd Number");
+}
+static void EventFire(){
+    Console.WriteLine("Event Fired: Odd Number");
+}
