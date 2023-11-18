@@ -82,3 +82,29 @@ Console.WriteLine(WeekDays.Sunday + "-> " + (int)WeekDays.Sunday);
 Calculation calculation = new Calculation();
 calculation.divide(100, 0);
 // calculation.divideAnother();
+
+//anonymous type
+var obj = new {
+    firstName="King",
+    lastName="Hardik",
+    salary = 12000,
+    address = new {
+        streetName = "toorak road",
+        city = "Hawthorn Easy"
+    },
+    projects = new []
+    {
+        new { name = "wowo", duration = 5},
+        new { name = "momo", duration = 50},
+        new { name = "lolo", duration = 52},
+        
+    }
+};
+Console.WriteLine(obj.firstName);
+Console.WriteLine(obj.lastName);
+Console.WriteLine(obj.firstName);
+Console.WriteLine(obj.address.city);
+Console.WriteLine(obj.projects[0]);
+foreach(var project in obj.projects){
+    Console.WriteLine(project);
+}
