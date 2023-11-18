@@ -61,4 +61,16 @@ User user = new User();
 user.Name = "Hardik";
 Console.WriteLine(user.Name);
 Console.WriteLine(user.CompanyName);
-user.Age = 1;
+user.Age = 35;
+
+//Indexers
+StringIndexerType stringIndexerType = new StringIndexerType();
+stringIndexerType[0] = "string One";
+stringIndexerType[1] = "string two";
+stringIndexerType[2] = "string three";
+stringIndexerType[3] = "string four";
+
+for(int i=0; i<4; i++ )
+    Console.WriteLine(stringIndexerType[i]);
+
+    
